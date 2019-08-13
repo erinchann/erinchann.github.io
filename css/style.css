@@ -33,16 +33,15 @@ h3 {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5;
   color: #7BABCA;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1.04%;
 }
 
@@ -70,7 +69,8 @@ p {
   "logo"
   "nav-pages"
   "hero-image"
-  "intro-text";
+  "intro-text"
+  "intro-bg";
 }
 
 .logo img {
@@ -84,7 +84,7 @@ p {
 @media (min-width: 768px){
   .nav-intro {
     grid-template-columns: 5fr 7fr;
-    grid-gap: 30px;
+    column-gap: 20px;
   }
 }
 
@@ -95,6 +95,7 @@ p {
     justify-self: left;
     align-self: left;
     padding: 58px 0 0 120px;
+    z-index: 1;
   }
 }
 
@@ -128,6 +129,16 @@ p {
     padding-right: 120px;
   }
 }
+
+@media {
+.intro-bg {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
 .nav-pages li {
   display: inline;
   margin-left: 10%;
@@ -203,6 +214,10 @@ p {
 
 .projects p {
   padding-top: 4px;
+}
+
+.matter-copy a {
+  text-decoration-color: #7BABCA;
 }
 
  footer {
