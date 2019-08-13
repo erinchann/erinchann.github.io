@@ -6,11 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-.nav-intro {
-  background-image: url("../assets/portrait.png");
-  background-repeat: no-repeat;
-}
-
 h1 {
   font-family: 'Sansita', sans-serif;
   font-weight: 900;
@@ -51,6 +46,7 @@ p {
   letter-spacing: 1.04%;
 }
 
+/* background pattern */
 .background-pattern {
   min-height: 100%;
   min-width: 1024px;
@@ -68,75 +64,81 @@ p {
   }
 }
 
-
-.navbar {
-  width: 100%;
-  padding: 58px 120px 0px 120px;
+.nav-intro {
   display: grid;
   grid-template-areas:
   "logo"
-  "nav-pages";
+  "nav-pages"
+  "hero-image"
+  "intro-text";
 }
 
 .logo img {
   grid-area: container;
 }
 
+.hero-image img {
+  grid-area: container;
+}
+
 @media (min-width: 768px){
-  .navbar {
-    grid-template-columns: 1fr 7fr 4fr;
+  .nav-intro {
+    grid-template-columns: 5fr 7fr;
     grid-gap: 30px;
-    grid-template-areas:
-    "logo . nav-pages";
   }
 }
 
-.nav-pages {
-  color: #7BABCA;
-  font-size: 16px;
-  letter-spacing: 1.5px;
-  padding: 35px 0 17px;
-  grid-area: nav-pages;
-  text-align: right;
+@media {
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: left;
+    padding: 58px 0 0 120px;
+  }
 }
 
+@media {
+.nav-pages {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: right;
+    align-self: right;
+    text-align: right;
+    padding: 90px 120px 0px 0;
+  }
+}
+
+@media {
+.hero-image {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: left;
+  }
+}
+
+@media {
+.intro-text {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
 .nav-pages li {
   display: inline;
   margin-left: 10%;
 }
 
-.nav-pages li a{
+.nav-pages li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
   color: #7BABCA;
-}
-
-.introduction {
-  display: grid;
-  grid-template-areas:
-  "hero-image"
-  "intro-text";
-}
-
-.intro-text {
-  padding: 180px 120px 345px;
-  grid-area: intro-text;
-}
-
-.hero-image {
-  grid-area: hero-image;
-  max-height: 100vh;
-}
-
-@media (min-width: 768px){
-  .introduction {
-    grid-template-columns: 5fr 7fr;
-    grid-gap: 30px;
-    grid-template-areas:
-    "hero-image intro-text"
-  }
 }
 
 .projects {
