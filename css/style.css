@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.nav-intro {
   background-image: url("../assets/portrait.png");
   background-repeat: no-repeat;
 }
@@ -36,10 +36,19 @@ h3 {
   letter-spacing: 0.5px;
 }
 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  text-decoration: none;
+  color: #7BABCA;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 2;
+  letter-spacing: 1.04%;
 }
 
 .background-pattern {
@@ -65,20 +74,20 @@ p {
   padding: 58px 120px 0px 120px;
   display: grid;
   grid-template-areas:
-  "container"
-  "nav-pages"
+  "logo"
+  "nav-pages";
 }
 
-.container img {
+.logo img {
   grid-area: container;
 }
 
 @media (min-width: 768px){
   .navbar {
-    grid-template-columns: 1fr 8fr 3fr;
+    grid-template-columns: 1fr 7fr 4fr;
     grid-gap: 30px;
     grid-template-areas:
-    "container . nav-pages"
+    "logo . nav-pages";
   }
 }
 
@@ -88,6 +97,7 @@ p {
   letter-spacing: 1.5px;
   padding: 35px 0 17px;
   grid-area: nav-pages;
+  text-align: right;
 }
 
 .nav-pages li {
@@ -111,7 +121,7 @@ p {
 }
 
 .intro-text {
-  padding: 180px 170px 345px;
+  padding: 180px 120px 345px;
   grid-area: intro-text;
 }
 
@@ -125,7 +135,7 @@ p {
     grid-template-columns: 5fr 7fr;
     grid-gap: 30px;
     grid-template-areas:
-    ". intro-text"
+    "hero-image intro-text"
   }
 }
 
@@ -139,7 +149,6 @@ p {
 
 .matter-background {
   grid-area: matter-background;
-  max-width: 750px;
 }
 
 .matter-copy {
@@ -148,7 +157,6 @@ p {
 
 .project2-background {
   grid-area: project2-background;
-  max-width: 750px;
 }
 
 .project2-copy {
@@ -191,11 +199,9 @@ p {
    }
  }
 
-
- .projects p span {
-   text-decoration: none;
-   color: #7BABCA;
- }
+.projects p {
+  padding-top: 4px;
+}
 
  footer {
  	height: 400px;

@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.nav-intro {
+  background-image: url("../assets/matter-hero-image.png");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Sansita', sans-serif;
+  font-weight: 900;
+  font-size: 61px;
+  color: #501EA2;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Sansita', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #501EA2;
+  letter-spacing: 2px;
+}
+
+/* process section */
+h3 {
+  font-family: 'Sansita', sans-serif;
+  font-weight: 900;
+  font-size: 39px;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+/* section header */
+h4 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 2;
+  text-decoration: none;
+  color: #501EA2;
+}
+
+/* survey highlights */
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 49px;
+  text-decoration: none;
+  color: #ED7979;
+}
+
+/* captions */
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #7BABCA;
+}
+
+/* links */
+h7 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1.04%;
+  color: #ED7979;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1.04%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 58px 120px 0px 120px;
+  display: grid;
+  grid-template-areas:
+  "logo"
+  "nav-pages";
+}
+
+.logo img {
+  grid-area: container;
+}
+
+.logo {
+  color: #ED7979;
+}
+
+.nav-pages {
+  color: #ED7979;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  padding: 35px 0 17px;
+  grid-area: nav-pages;
+  text-align: right;
+}
+
+@media (min-width: 768px){
+  .navbar {
+    grid-template-columns: 1fr 7fr 4fr;
+    grid-gap: 30px;
+    grid-template-areas:
+    "logo . nav-pages"
+  }
+}
+
+.nav-pages li {
+  display: inline;
+  margin-left: 10%;
+}
+
+.nav-pages li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #ED7979;
+}
+
+.matter-intro {
+  display: grid;
+  grid-template-areas:
+  "matter-summary";
+}
+
+.matter-summary {
+  padding: 180px 120px 345px;
+  grid-area: intro-text;
+}
+
+
+@media (min-width: 768px){
+  .matter-intro {
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 30px;
+    grid-template-areas:
+    ". intro-text"
+  }
+}
