@@ -6,11 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-.nav-intro {
-  background-image: url("../assets/matter-hero-image.png");
-  background-repeat: no-repeat;
-}
-
 h1 {
   font-family: 'Sansita', sans-serif;
   font-weight: 900;
@@ -79,71 +74,79 @@ p {
   letter-spacing: 1.04%;
 }
 
-.navbar {
-  width: 100%;
-  padding: 58px 120px 0px 120px;
+.nav-intro {
   display: grid;
   grid-template-areas:
   "logo"
-  "nav-pages";
+  "nav-pages"
+  "hero-image"
+  "matter-summary";
 }
 
 .logo img {
   grid-area: container;
 }
 
-.logo {
-  color: #ED7979;
-}
-
-.nav-pages {
-  color: #ED7979;
-  font-size: 16px;
-  letter-spacing: 1.5px;
-  padding: 35px 0 17px;
-  grid-area: nav-pages;
-  text-align: right;
+.hero-image img {
+  grid-area: container;
 }
 
 @media (min-width: 768px){
-  .navbar {
-    grid-template-columns: 1fr 7fr 4fr;
+  .nav-intro {
+    grid-template-columns: 5fr 7fr;
     grid-gap: 30px;
-    grid-template-areas:
-    "logo . nav-pages"
   }
 }
 
+@media {
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: left;
+    padding: 58px 0 0 120px;
+  }
+}
+
+@media {
+.nav-pages {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: right;
+    align-self: right;
+    text-align: right;
+    padding: 90px 120px 0px 0;
+  }
+}
+
+@media {
+.hero-image {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: left;
+  }
+}
+
+@media {
+.matter-summary {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
 .nav-pages li {
   display: inline;
   margin-left: 10%;
 }
 
-.nav-pages li a{
+.nav-pages li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
-  color: #ED7979;
-}
-
-.matter-intro {
-  display: grid;
-  grid-template-areas:
-  "matter-summary";
-}
-
-.matter-summary {
-  padding: 180px 120px 345px;
-  grid-area: intro-text;
-}
-
-
-@media (min-width: 768px){
-  .matter-intro {
-    grid-template-columns: 5fr 7fr;
-    grid-gap: 30px;
-    grid-template-areas:
-    ". intro-text"
-  }
+  color: #7BABCA;
 }
