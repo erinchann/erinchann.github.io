@@ -119,6 +119,7 @@ p {
     align-self: right;
     text-align: right;
     padding: 90px 120px 0px 0;
+    z-index: 1;
   }
 }
 
@@ -239,28 +240,57 @@ p {
 
 @media (min-width: 768px){
   .comp-analysis {
-    grid-template-columns: 6fr 6fr;
-    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 6fr;
+  }
+}
+
+@media {
+.comp-title {
+    grid-column: 1 / span 6;
+    grid-row: 1;
+    justify-self: left;
+    align-self: left;
   }
 }
 
 @media {
 .comp-one {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1 / span 6;
+    grid-row: 2;
     justify-self: left;
     align-self: left;
-    padding: 45px 102px 0 0;
+    padding-right: 5%;
   }
 }
 
 @media {
 .comp-two {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 7;
+    grid-row: 2;
     justify-self: right;
     align-self: right;
-    padding: 45px 102px 0 0;
+    padding-left: 5%;
+  }
+}
+
+@media {
+.comp-gd {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media {
+.comp-db {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
+
+@media {
+.comp-en {
+    grid-column: 3;
+    grid-row: 3;
   }
 }
 
@@ -417,9 +447,9 @@ p {
 .persona-findings {
     grid-column: 4;
     grid-row: 2;
-    justify-self: right;
-    align-self: right;
-    padding: 100px 0 70px 20px;
+    padding-left: 20px;
+    margin: auto;
+    max-width: 600px;
   }
 }
 
@@ -512,7 +542,7 @@ p {
 
 @media (min-width: 768px){
   .wf-iterations {
-    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-columns: 6fr 6fr;
     column-gap: 20px;
     padding-bottom: 50px;
     margin: 30px 120px 100px;
@@ -522,7 +552,7 @@ p {
 @media {
 .wf-finding {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1 / span 4;
     justify-self: left;
     align-self: left;
     margin: auto;
@@ -533,7 +563,7 @@ p {
 .wf-one {
     grid-column: 2;
     grid-row: 1;
-    justify-self: left;
+    justify-self: right;
     align-self: end;
   }
 }
@@ -551,8 +581,8 @@ p {
 
 @media {
 .wf-two {
-    grid-column: 3;
-    grid-row: 1;
+    grid-column: 2;
+    grid-row: 3;
     justify-self: right;
     align-self: end;
   }
@@ -560,8 +590,8 @@ p {
 
 @media {
 .wf-two-cap {
-    grid-column: 3;
-    grid-row: 2;
+    grid-column: 2;
+    grid-row: 4;
     justify-self: right;
     align-self: right;
     padding: 0 25px 0 0;

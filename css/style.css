@@ -107,6 +107,7 @@ p {
     align-self: right;
     text-align: right;
     padding: 90px 120px 0px 0;
+    z-index: 1;
   }
 }
 
@@ -170,6 +171,7 @@ p {
 
 .matter-copy {
   grid-area: matter-copy;
+  z-index: 1;
 }
 
 .project2-background {
