@@ -160,6 +160,10 @@ p {
   margin-bottom: 20px;
 }
 
+.projects a {
+  text-decoration-color: #7BABCA;
+}
+
 .matter-background {
   grid-area: matter-background;
 }
@@ -240,6 +244,10 @@ p {
   color: #7BABCA;
   display: flex;
   justify-content: center;
+}
+
+.connect a {
+  text-decoration: none;
 }
 
 .social {
