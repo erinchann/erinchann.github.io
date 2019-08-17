@@ -93,7 +93,7 @@ p {
   grid-area: container;
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .nav-intro {
     grid-template-columns: 5fr 7fr;
     column-gap: 20px;
@@ -191,7 +191,8 @@ p {
   "problem"
   "solution";
 }
-@media (min-width: 768px){
+
+@media (min-width: 991px){
   .probsol {
     grid-template-columns: 6fr 6fr;
     column-gap: 20px;
@@ -238,7 +239,7 @@ p {
   "comp-two";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .comp-analysis {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 6fr;
   }
@@ -307,7 +308,7 @@ p {
   "survey-three";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .surveys {
     grid-template-columns: 4fr 4fr 4fr;
     column-gap: 20px;
@@ -374,7 +375,7 @@ p {
   "persona-findings";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .personas {
     grid-template-columns: 2fr 2fr 2fr 6fr;
     column-gap: 20px;
@@ -540,7 +541,7 @@ p {
   "wf-cap-two";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .wf-iterations {
     grid-template-columns: 6fr 6fr;
     column-gap: 20px;
@@ -622,7 +623,7 @@ p {
   "mindmap-copy"
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .brainstorming {
     grid-template-columns: 7fr 5fr;
     column-gap: 20px;
@@ -663,7 +664,7 @@ p {
   "sketch-image";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .logo-sketches {
     grid-template-columns: 6fr 6fr;
     column-gap: 20px;
@@ -702,7 +703,7 @@ p {
   "final-logo";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .logo-dev {
     grid-template-columns: 2fr 2fr 2fr 6fr;
     column-gap: 20px;
@@ -770,7 +771,7 @@ p {
   "color-swatches";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .color {
     grid-template-columns: 5fr 7fr;
     column-gap: 20px;
@@ -811,7 +812,7 @@ p {
   "supplementay-typeface";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .type {
     grid-template-columns: 2fr 4fr 1fr 5fr;
     column-gap: 20px;
@@ -917,7 +918,7 @@ p {
   "test-result";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .pref-tests {
     grid-template-columns: 2fr 4fr 4fr 2fr;
     column-gap: 20px;
@@ -1055,7 +1056,7 @@ p {
   "finding1-copy"
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .usa-one {
     grid-template-columns: 2fr 2fr 4fr 4fr;
     column-gap: 20px;
@@ -1133,7 +1134,7 @@ p {
   "second-it2";
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .usa-two {
     grid-template-columns: 1fr 5fr 5fr 1fr;
     column-gap: 20px;
@@ -1242,7 +1243,7 @@ p {
   "conc-two"
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .conclusion {
     grid-template-columns: 4fr 4fr 4fr;
     column-gap: 50px;
