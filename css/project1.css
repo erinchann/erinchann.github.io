@@ -78,11 +78,6 @@ p {
 
 .nav-intro {
   display: grid;
-  grid-template-areas:
-  "logo"
-  "nav-pages"
-  "hero-image"
-  "matter-summary";
 }
 
 .logo img {

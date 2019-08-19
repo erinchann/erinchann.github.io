@@ -57,7 +57,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 1.04%;
 }
 
 /* background pattern */
@@ -96,6 +95,12 @@ p {
   background-color: #FBF8F5;
 }
 
+@media (min-width: 768px) {
+  .nav-intro {
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+  }
+}
+
 .logo {
   grid-column: 1 / span 2;
   grid-row: 1;
@@ -103,15 +108,18 @@ p {
   z-index: 1;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .logo {
-    margin-left: 60px;
+    grid-column: 1 / span 4;
+    padding-left: 60px;
+    margin-left: 0;
   }
 }
 
-@media (min-width: 991px){
+@media (min-width: 991px) {
   .logo {
-    margin-left: 120px;
+    grid-column: 1 / span 4;
+    padding-left: 90px;
   }
 }
 
@@ -128,6 +136,7 @@ p {
 
 @media (min-width: 768px) {
   .nav-pages {
+    grid-column: 1 / span 4;
     padding-right: 30px;
     width: 300px;
   }
@@ -135,11 +144,10 @@ p {
 
 @media (min-width: 991px) {
   .nav-pages {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1 / span 4;
     align-self: start;
-    margin-right: 120px;
     width: 350px;
+    padding-right: 90px;
   }
 }
 
@@ -163,6 +171,18 @@ p {
   padding-top: 50px;
 }
 
+@media (min-width: 768px) {
+  .hero-mobile {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    width: 350px;
+    justify-self: right;
+    padding: 0 0 80px;
+    padding-left: 60px;
+  }
+}
+
 .intro-text {
   grid-column: 1 / span 2;
   grid-row: 3;
@@ -171,26 +191,26 @@ p {
 
 @media (min-width: 768px) {
   .intro-text {
-    padding-left: 60px;
+    grid-column: 3;
+    grid-row: 2;
   }
 }
 
 @media (min-width: 991px) {
   .intro-text {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 3;
+    grid-row: 2;
     align-self: center;
-    max-width: 500px;
   }
 }
-
+/*
 @media (min-width: 991px) {
   .hero-mobile {
     display: none;
   }
-}
+} */
 
-@media (max-width: 990px) {
+/* @media (max-width: 990px) {
   .hero-desk {
     display: none;
   }
@@ -201,7 +221,7 @@ p {
     grid-column: 1;
     grid-row: 1;
   }
-}
+} */
 
 /* bio */
 .bio {
