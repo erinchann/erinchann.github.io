@@ -203,6 +203,7 @@ object-fit: cover;
     padding-top: 20%;
     justify-self: center;
     align-self: end;
+    padding-right: 60px;
   }
 }
 
@@ -212,9 +213,18 @@ object-fit: cover;
     grid-row: 1;
     justify-self: center;
     align-self: end;
-    padding: 0 120px;
+    padding-right: 120px;
+    padding-bottom: 13%;
   }
 }
+
+@media (min-width: 1200px) {
+  .matter-summary {
+    justify-self: center;
+    align-self: end;
+  }
+}
+
 
 .intro-bg {
   grid-column: 2;
@@ -852,7 +862,7 @@ object-fit: cover;
 
 @media (min-width: 768px) {
   .flows {
-    margin: 50px 60px;
+    margin: 50px 0;
   }
 }
 
@@ -1797,7 +1807,7 @@ background-size: contain;
 
 @media (min-width: 768px) {
   .usa-one {
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
     column-gap: 20px;
     padding: 50px 60px 30px;
   }
@@ -1805,8 +1815,6 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .usa-one {
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
     padding: 50px 120px 30px;
   }
 }
@@ -1818,17 +1826,10 @@ background-size: contain;
 
 @media (min-width: 768px){
 .usa-intro {
-    grid-column: 1;
+    grid-column: 1 / span 3;
     grid-row: 1;
     align-content: center;
     max-width: 500px;
-  }
-}
-
-@media (min-width: 991px){
-.usa-intro {
-    grid-column: 1 / span 2;
-    grid-row: 1;
   }
 }
 
@@ -1848,7 +1849,7 @@ background-size: contain;
 @media (min-width: 768px){
 .first-it {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
     margin-top: 30px;
     align-self: end;
     width: 60%;
@@ -1858,8 +1859,6 @@ background-size: contain;
 
 @media (min-width: 991px){
 .first-it {
-    grid-column: 2;
-    grid-row: 2;
     width: 100%;
   }
 }
@@ -1876,16 +1875,9 @@ background-size: contain;
 @media (min-width: 768px){
 .cap-one {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
     max-width: 500px;
     justify-self: right;
-  }
-}
-
-@media (min-width: 991px){
-.cap-one {
-    grid-column: 2;
-    grid-row: 3;
   }
 }
 
@@ -1900,18 +1892,15 @@ background-size: contain;
 
 @media (min-width: 768px){
 .second-it {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 3;
+    grid-row: 2;
     max-width: 350px;
     width: 60%;
-    justify-self: right;
   }
 }
 
 @media (min-width: 991px){
 .second-it {
-    grid-column: 3;
-    grid-row: 2;
     width: 100%;
   }
 }
@@ -1926,40 +1915,29 @@ background-size: contain;
 
 @media (min-width: 768px){
 .cap-two {
-    grid-column: 2;
-    grid-row: 4;
-    max-width: 500px;
-    justify-self: right;
-  }
-}
-
-@media (min-width: 991px){
-.cap-two {
     grid-column: 3;
     grid-row: 3;
+    max-width: 500px;
+    justify-self: center;
+    margin-right: 0;
   }
 }
 
 .finding1-copy {
   grid-column: 1 / span 2;
   grid-row: 2;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 @media (min-width: 768px){
 .finding1-copy {
-    grid-column: 1;
-    grid-row: 2 / span 2;
+    grid-column: 2 / span 2;
+    grid-row: 5;
     align-content: center;
+    justify-self: center;
+    text-align: center;
     max-width: 500px;
     margin: auto 0;
-  }
-}
-
-@media (min-width: 991px){
-.finding1-copy {
-    grid-column: 1;
-    grid-row: 2 / span 2;
   }
 }
 
@@ -1975,19 +1953,17 @@ background-size: contain;
 
 @media (min-width: 768px){
   .usa-two {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
     column-gap: 20px;
     padding: 30px 60px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 991px){
   .usa-two {
-    grid-template-columns: 1fr 1fr;
-    padding: 10px 120px 50px;
     margin-bottom: 100px;
-    justify-self: right;
+    padding-bottom: 50px;
   }
 }
 
@@ -2000,55 +1976,21 @@ background-size: contain;
 
 @media (min-width: 768px){
 .finding2-copy {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 2 / span 2;
+    grid-row: 3;
     padding-right: 30px;
-  }
-}
-
-@media (min-width: 991px){
-.finding2-copy {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    padding-right: 30px;
-    align-self: start;
-    margin: 0;
+    text-align: center;
+    max-width: 500px;
   }
 }
 
 .cap-three {
-  grid-column: 1;
-  grid-row: 3;
-  align-self: start;
-  text-align: right;
-  justify-self: right;
-  padding-bottom: 40%;
-  width: 150px;
-}
-
-@media (min-width: 768px){
-.cap-three {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: center;
-    padding-bottom: 0;
-    align-self: end;
-    justify-self: left;
-    padding-bottom: 20px;
-  }
-}
-
-@media (min-width: 991px){
-.cap-three {
-  grid-column: 2;
-  grid-row: 1;
-  justify-self: right;
-  text-align: right;
   display: none;
 }
-}
+
+
 .second-it2 {
-  grid-column: 2;
+  grid-column: 1 / span 2;
   grid-row: 2 / span 2;
   align-content: center;
   max-width: 350px;
@@ -2058,20 +2000,11 @@ background-size: contain;
 
 @media (min-width: 768px){
 .second-it2 {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    width: 90%;
-    justify-self: right;
-    align-self: end;
-  }
-}
-
-@media (min-width: 991px){
-.second-it2 {
-    grid-column: 3;
+    grid-column: 2 / span 2;
     grid-row: 1;
-    align-self: start;
-    padding-top: 0;
+    width: 90%;
+    justify-self: center;
+    align-self: end;
   }
 }
 
@@ -2105,7 +2038,7 @@ background-size: contain;
 
 
 .desktop img {
-  max-width: 30%;
+  max-width: 33%;
   height: auto;
 }
 
@@ -2117,6 +2050,13 @@ background-size: contain;
 .mobile img {
   max-width: 15%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+.mobile img {
+  max-width: 16%;
+  height: auto;
+}
 }
 
 @media (min-width: 768px) {
