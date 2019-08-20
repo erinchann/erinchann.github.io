@@ -170,6 +170,11 @@ p {
   color: #7BABCA;
 }
 
+.nav-pages li a:hover {
+  color: #008583;
+  border-bottom: 2px solid #008583;
+}
+
 .hero-mobile {
   grid-column: 1 / span 2;
   grid-row: 2;
@@ -426,6 +431,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 400px;
 }
 
 .connect {
@@ -434,24 +440,49 @@ footer {
   align-items: center;
   margin-top: 10px;
   padding-top: 40px;
+  z-index: 1;
 }
 
-.connect p {
-  text-decoration: none;
-  color: #7BABCA;
-  display: flex;
-  justify-content: center;
+.connect h3 {
+  color: #008583;
+}
+
+.connect h5 {
+    margin: 20px auto;
+    width: 190px;
+    z-index: 1;
 }
 
 .connect a {
   text-decoration: none;
 }
 
+.connect h5:hover {
+  color: #008583;
+  border-bottom: 2px solid #008583;
+}
+
+
 .social {
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
-.social img {
-  padding:10px 10px 40px ;
+.social a{
+  text-decoration: none;
+}
+
+.social i {
+  margin: 20px 20px 40px ;
+  color: inherit;
+  display: block;
+  position: relative;
+  color: #7BABCA;
+  transform: scale(2);
+}
+
+.social i:hover {
+  color: #008583;
+  border-bottom: 2px solid #008583;
 }

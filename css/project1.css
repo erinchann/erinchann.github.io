@@ -255,6 +255,11 @@ object-fit: cover;
   color: #9C6262;
 }
 
+.nav-pages li a:hover {
+  color: #501EA2;
+  border-bottom: 2px solid #501EA2;
+}
+
 .pro-link {
   max-width: 500px;
   margin: auto;
@@ -273,6 +278,11 @@ object-fit: cover;
   font-size: 16px;
   border-radius: 3px;
   margin: 30px 0 30px;
+}
+
+.matter-summary h7:hover {
+  color: white;
+  background-color: #9C6262;
 }
 
 .pro-link {
@@ -915,6 +925,12 @@ object-fit: cover;
   border-radius: 3px;
   margin: 40px 0 0;
 }
+
+.flow-link h7:hover {
+  color: white;
+  background-color: #9C6262;
+}
+
 
 @media (min-width: 991px) {
 .flow-link h7 {
@@ -2087,6 +2103,11 @@ background-size: contain;
   text-align: center;
 }
 
+.desktop h7:hover {
+  color: white;
+  background-color: #9C6262;
+}
+
 .mobile h7 {
   border: 1px solid #9C6262;
   color: #9C6262;
@@ -2098,9 +2119,13 @@ background-size: contain;
   border-radius: 3px;
   margin-top: 40px;
 }
-
 .m-button {
   text-align: center;
+}
+
+.mobile h7:hover {
+  color: white;
+  background-color: #9C6262;
 }
 
 /* conclusion */
@@ -2230,8 +2255,19 @@ background-size: contain;
   margin: 40px 0 40px;
 }
 
+.thanks h7:hover {
+  color: white;
+  background-color: #9C6262;
+}
+
+
 .thanks a {
   text-decoration: none;
+}
+
+/* remove this when next project is added */
+.thanks h7 {
+  display: none;
 }
 
 /* connect */
@@ -2253,24 +2289,46 @@ footer {
 
 .connect h3 {
   color: #501EA2;
+  padding-bottom: 20px;
+}
+
+.connect h7 {
+  color: #9C6262;
+  margin: 20px auto;
+  width: 190px;
+  z-index: 1;
 }
 
 .connect a {
   text-decoration: none;
 }
 
-.connect p {
-  text-decoration: none;
-  color: #9C6262;
-  display: flex;
-  justify-content: center;
+.connect h7:hover {
+  color: #501EA2;
+  border-bottom: 2px solid #501EA2;
 }
 
 .social {
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
-.social img {
-  padding-left: 25px;
+.social a{
+  text-decoration: none;
+}
+
+.social i {
+  padding: 20px 0 0;
+  margin: 0 20px 40px;
+  color: inherit;
+  display: block;
+  position: relative;
+  color: #9C6262;
+  transform: scale(2);
+}
+
+.social i:hover {
+  color: #501EA2;
+  border-bottom: 2px solid #501EA2;
 }
