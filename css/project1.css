@@ -214,14 +214,14 @@ object-fit: cover;
     justify-self: center;
     align-self: end;
     padding-right: 120px;
-    padding-bottom: 13%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .matter-summary {
     justify-self: center;
     align-self: end;
+    padding-bottom: 12%;
   }
 }
 
