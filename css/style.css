@@ -35,7 +35,7 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #7BABCA;
+  color: #3F779D;
 }
 
 p {
@@ -154,7 +154,7 @@ p {
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
-  color: #7BABCA;
+  color: #3F779D;
 }
 
 .nav-pages li a:hover {
@@ -278,6 +278,11 @@ p {
   }
 }
 
+.matter-copy h4 {
+  max-width: 196px;
+  margin: auto;
+}
+
 .matter-background {
   grid-column: 1;
   grid-row: 2;
@@ -365,7 +370,7 @@ footer {
 }
 
 .connect {
-  border-top: 1px solid #FA7A72;
+  border-top: 1px solid #3F779D;
   display: block;
   align-items: center;
   margin-top: 10px;
@@ -404,7 +409,7 @@ footer {
   color: inherit;
   display: block;
   position: relative;
-  color: #7BABCA;
+  color: #3F779D;
   transform: scale(2);
 }
 

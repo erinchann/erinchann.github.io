@@ -44,7 +44,7 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #7BABCA;
+  color: #3F779D;
 }
 
 h6 {
@@ -167,7 +167,7 @@ p {
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
-  color: #7BABCA;
+  color: #3F779D;
 }
 
 .nav-pages li a:hover {
@@ -435,7 +435,7 @@ footer {
 }
 
 .connect {
-  border-top: 1px solid #FA7A72;
+  border-top: 1px solid #3F779D;
   display: block;
   align-items: center;
   margin-top: 10px;
@@ -478,7 +478,7 @@ footer {
   color: inherit;
   display: block;
   position: relative;
-  color: #7BABCA;
+  color: #3F779D;
   transform: scale(2);
 }
 
