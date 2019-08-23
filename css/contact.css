@@ -320,6 +320,10 @@ button:hover {
     background-color: #3F779D;
   }
 
+  button:focus{
+      outline-color: #3F779D;
+  }
+
 
 /* connect */
 

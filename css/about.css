@@ -125,7 +125,7 @@ p {
 @media (min-width: 991px) {
   .logo {
     grid-column: 1 / span 4;
-    padding-left: 90px;
+    padding-left: 120px;
   }
 }
 
