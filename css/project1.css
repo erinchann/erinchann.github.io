@@ -2153,10 +2153,8 @@ background-size: contain;
   margin: 25px 30px 25px;
 }
 
-
 .desktop img {
-  max-width: 33%;
-  height: auto;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -2179,7 +2177,7 @@ background-size: contain;
 }
 
 .mobile img {
-  max-width: 15%;
+  max-width: 30%;
   height: auto;
 }
 
