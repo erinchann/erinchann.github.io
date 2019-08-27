@@ -154,7 +154,13 @@ p {
 @media (min-width: 768px) {
   .nav-pages {
     grid-column: 1 / span 4;
+    grid-row: 1;
+    align-self: right;
+    justify-self: right;
+    text-align: right;
     padding-right: 30px;
+    margin: 40px 30px 0px 0;
+    z-index: 1;
     width: 300px;
   }
 }
@@ -168,12 +174,12 @@ p {
   }
 }
 
-.nav-pages li, .ham-nav li {
+.nav-pages li {
   display: inline;
   margin-left: 10%;
 }
 
-.nav-pages li a, .ham-nav li a {
+.nav-pages li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
@@ -186,7 +192,7 @@ p {
   border-bottom: 2px solid #008583;
 }
 
-.ham-nav {
+#menu {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
@@ -194,27 +200,16 @@ p {
   color: #3F779D;
 }
 
-.ham-nav li a {
-text-decoration: none;
-color: #232323;
-transition: color 0.3s ease;
+#menu li a {
+  text-decoration: none;
+  color: #3F779D;
+  transition: color 0.3s ease;
 }
 
-.ham-nav {
+#menu {
   margin: 0;
   padding: 0;
-
-  /* make it look decent enough */
-  color: #cdcdcd;
-  font-family: 'Open Sans', sans-serif;
-
   overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
-}
-
-.ham-nav li a {
-text-decoration: none;
-color: #232323;
-transition: color 0.3s ease;
 }
 
 #menuToggle
