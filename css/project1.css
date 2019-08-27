@@ -246,9 +246,19 @@ object-fit: cover;
   }
 }
 
+@media (min-width: 376px) {
 .nav-pages li {
   display: inline;
   margin-left: 10%;
+  padding-bottom: 0;
+}
+}
+
+@media (max-width: 375px) {
+  .nav-pages li {
+    display: block;
+    padding-bottom: 5%;
+  }
 }
 
 .nav-pages li a {
@@ -1884,7 +1894,7 @@ background-size: contain;
     grid-column: 3;
     grid-row: 8;
     padding-top: 17px;
-    max-width: none; 
+    max-width: none;
   }
 }
 

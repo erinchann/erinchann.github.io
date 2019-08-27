@@ -144,9 +144,19 @@ p {
   }
 }
 
+@media (min-width: 376px) {
 .nav-pages li {
   display: inline;
   margin-left: 10%;
+  padding-bottom: 0;
+}
+}
+
+@media (max-width: 375px) {
+  .nav-pages li {
+    display: block;
+    padding-bottom: 5%;
+  }
 }
 
 .nav-pages li a {
