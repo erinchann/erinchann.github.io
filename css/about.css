@@ -365,6 +365,14 @@ p {
   }
 }
 
+.company {
+  font-weight: 600;
+}
+
+.clients {
+  font-style: italic;
+}
+
 .resume br {
   line-height: 150%;
 }
@@ -389,6 +397,14 @@ p {
 		grid-row: 1;
     padding-top: 0;
   }
+}
+
+.edu-two {
+  padding-top: 10px;
+}
+
+.edu-one, .edu-two {
+  font-weight: 600;
 }
 
 .skills {
