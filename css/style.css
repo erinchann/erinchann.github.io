@@ -254,6 +254,7 @@ p {
   text-align: center;
   padding: 20px;
   z-index: 1;
+  background-color: #FBF8F5;
 }
 
 @media (min-width: 768px) {
@@ -264,7 +265,7 @@ p {
     		align-self: center;
     		text-align: center;
     		padding: 10px;
-        background-color: #FBF8F5;
+
   }
 }
 
@@ -308,6 +309,7 @@ p {
   text-align: center;
   padding: 20px;
   z-index: 1;
+  background-color: #FBF8F5;
 }
 
 @media (min-width: 768px) {
@@ -318,7 +320,7 @@ p {
     		align-self: center;
     		text-align: center;
     		padding: 10px;
-        background-color: #FBF8F5;
+
   }
 }
 
