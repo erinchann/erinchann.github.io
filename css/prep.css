@@ -776,7 +776,7 @@ object-fit: cover;
 
 .survey-five {
   grid-column: 1;
-  grid-row: 5;
+  grid-row: 6;
   margin: 30px 0 0;
 }
 
@@ -789,7 +789,7 @@ object-fit: cover;
 
 .insights {
   grid-column: 1;
-  grid-row: 6;
+  grid-row: 7;
   justify-self: center;
   align-self: center;
   margin: 30px 0 0;
