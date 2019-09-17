@@ -1,21 +1,21 @@
-<svg width="604" height="901" viewBox="0 0 604 901" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.333252" y="0.707031" width="603" height="900" fill="#FBF8F5"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="604" height="901">
-<rect x="0.333252" y="0.707031" width="603" height="900" fill="#C4C4C4"/>
+<svg width="409" height="610" viewBox="0 0 409 610" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="0.722168" y="0.337891" width="408.278" height="609.37" fill="#FBF8F5"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="409" height="610">
+<rect x="0.722168" y="0.337891" width="408.278" height="609.37" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
 <g filter="url(#filter0_d)">
-<rect x="16.0664" y="430.488" width="218.073" height="387.686" fill="url(#pattern0)"/>
+<rect x="11.3748" y="291.334" width="147.652" height="262.493" fill="url(#pattern0)"/>
 </g>
 <g filter="url(#filter1_d)">
-<rect x="189.718" y="278.016" width="263.987" height="469.311" fill="url(#pattern1)"/>
+<rect x="128.95" y="188.098" width="178.74" height="317.76" fill="url(#pattern1)"/>
 </g>
 <g filter="url(#filter2_d)">
-<rect x="366.38" y="429.914" width="218.073" height="387.686" fill="url(#pattern2)"/>
+<rect x="248.564" y="290.945" width="147.652" height="262.493" fill="url(#pattern2)"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d" x="-3.93359" y="414.488" width="258.073" height="427.686" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="-8.62524" y="275.334" width="187.652" height="302.493" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -27,7 +27,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.00241546 0.0013587)"/>
 </pattern>
-<filter id="filter1_d" x="169.718" y="262.016" width="303.987" height="509.311" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d" x="108.95" y="172.098" width="218.74" height="357.76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -39,7 +39,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1" transform="scale(0.00241546 0.0013587)"/>
 </pattern>
-<filter id="filter2_d" x="346.38" y="413.914" width="258.073" height="427.686" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d" x="228.564" y="274.945" width="187.652" height="302.493" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>

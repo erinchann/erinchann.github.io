@@ -1,19 +1,19 @@
-<svg width="1464" height="2134" viewBox="0 0 1464 2134" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.624023" y="0.12207" width="235.157" height="418.655" fill="url(#pattern0)"/>
-<rect x="245.781" y="0.12207" width="235.695" height="418.655" fill="url(#pattern1)"/>
-<rect x="736.967" y="428.777" width="235.491" height="418.65" fill="url(#pattern2)"/>
-<rect x="982.458" y="428.777" width="235.491" height="418.65" fill="url(#pattern3)"/>
-<rect x="491.476" y="428.777" width="235.491" height="418.65" fill="url(#pattern4)"/>
-<rect x="491.476" y="857.426" width="234.922" height="418.65" fill="url(#pattern5)"/>
-<rect x="736.967" y="857.426" width="235.491" height="418.65" fill="url(#pattern6)"/>
-<rect x="1227.95" y="428.777" width="235.491" height="418.65" fill="url(#pattern7)"/>
-<rect x="491.476" y="0.124512" width="235.491" height="418.65" fill="url(#pattern8)"/>
-<rect x="736.967" y="0.124512" width="235.491" height="418.65" fill="url(#pattern9)"/>
-<rect x="491.476" y="1286.08" width="235.491" height="418.65" fill="url(#pattern10)"/>
-<rect x="736.967" y="1286.08" width="235.491" height="418.65" fill="url(#pattern11)"/>
-<rect x="982.457" y="1286.08" width="235.491" height="418.65" fill="url(#pattern12)"/>
-<rect x="491.476" y="1714.73" width="235.491" height="418.65" fill="url(#pattern13)"/>
-<rect x="736.967" y="1714.73" width="235.491" height="418.65" fill="url(#pattern14)"/>
+<svg width="675" height="984" viewBox="0 0 675 984" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="0.216797" y="0.553223" width="108.386" height="192.961" fill="url(#pattern0)"/>
+<rect x="113.211" y="0.553223" width="108.634" height="192.961" fill="url(#pattern1)"/>
+<rect x="339.603" y="198.124" width="108.539" height="192.959" fill="url(#pattern2)"/>
+<rect x="452.751" y="198.124" width="108.539" height="192.959" fill="url(#pattern3)"/>
+<rect x="226.454" y="198.124" width="108.539" height="192.959" fill="url(#pattern4)"/>
+<rect x="226.454" y="395.691" width="108.277" height="192.959" fill="url(#pattern5)"/>
+<rect x="339.603" y="395.691" width="108.539" height="192.959" fill="url(#pattern6)"/>
+<rect x="565.899" y="198.124" width="108.539" height="192.959" fill="url(#pattern7)"/>
+<rect x="226.454" y="0.554199" width="108.539" height="192.959" fill="url(#pattern8)"/>
+<rect x="339.603" y="0.554199" width="108.539" height="192.959" fill="url(#pattern9)"/>
+<rect x="226.454" y="593.26" width="108.539" height="192.959" fill="url(#pattern10)"/>
+<rect x="339.603" y="593.26" width="108.539" height="192.959" fill="url(#pattern11)"/>
+<rect x="452.751" y="593.26" width="108.539" height="192.959" fill="url(#pattern12)"/>
+<rect x="226.454" y="790.827" width="108.539" height="192.959" fill="url(#pattern13)"/>
+<rect x="339.603" y="790.827" width="108.539" height="192.959" fill="url(#pattern14)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.00228833 0.00128535)"/>
