@@ -451,6 +451,43 @@ p {
   }
 }
 
+.resume-dl {
+  margin: auto;
+  padding-top: 30px;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+.resume-dl {
+  margin: auto;
+  padding-top: 30px;
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+}
+
+.resume-dl a {
+  text-decoration: none;
+}
+
+.resume-dl h5 {
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  margin: 15px 0 15px;
+  z-index: 1;
+}
+
+.resume-dl h5:hover {
+  color: white;
+  background-color: #3F779D;
+}
+
 /* footer */
 footer {
   text-align: center;
