@@ -315,6 +315,96 @@ object-fit: cover;
   padding-top: 10px;
 }
 
+/* Specifications */
+.proj-specs ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 1.04%;
+}
+
+
+.proj-specs {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 25px 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+.proj-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 30px 60px;
+  text-align: center;
+  margin: 10px;
+}
+}
+
+@media (min-width: 991px) {
+  .proj-specs {
+    padding: 50px 120px;
+  }
+}
+
+.roles {
+  grid-column: 1;
+  grid-row: 1;
+}
+}
+
+@media (min-width: 768px) {
+.roles {
+  grid-column: 1;
+  grid-row: 1;
+}
+}
+
+.deliverables {
+  grid-column: 1;
+  grid-row: 2;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+.deliverables {
+  grid-column: 2;
+  grid-row: 1;
+  border-left: 1px solid #888888;
+  border-right: 1px solid #888888;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+}
+
+.specifications {
+  grid-column: 1;
+  grid-row: 3;
+  grid-row: 1;
+}
+
+@media (min-width: 768px) {
+.specifications {
+  grid-column: 3;
+}
+}
+
+.proj-specs h5 {
+  padding-bottom: 15px;
+}
+
+.tools {
+  padding-top: 20px;
+}
+
 /* problem solution */
 
 .probsol {
