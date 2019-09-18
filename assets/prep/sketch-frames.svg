@@ -1,26 +1,92 @@
-<svg width="562" height="484" viewBox="0 0 562 484" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.217285" y="0.111816" width="183.908" height="239.332" fill="url(#pattern0)"/>
-<rect x="188.323" y="0.111328" width="183.488" height="239.332" fill="url(#pattern1)"/>
-<rect x="376.01" y="0.111328" width="183.908" height="239.332" fill="url(#pattern2)"/>
-<rect x="0.216797" y="244.053" width="183.907" height="239.878" fill="url(#pattern3)"/>
-<rect x="188.801" y="244.053" width="183.907" height="239.331" fill="url(#pattern4)"/>
-<rect x="377.384" y="244.053" width="183.907" height="239.878" fill="url(#pattern5)"/>
+<svg width="602" height="524" viewBox="0 0 602 524" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d)">
+<rect x="20.2173" y="16.1118" width="183.908" height="239.332" fill="url(#pattern0)"/>
+</g>
+<g filter="url(#filter1_d)">
+<rect x="208.323" y="16.1113" width="183.488" height="239.332" fill="url(#pattern1)"/>
+</g>
+<g filter="url(#filter2_d)">
+<rect x="396.01" y="16.1113" width="183.908" height="239.332" fill="url(#pattern2)"/>
+</g>
+<g filter="url(#filter3_d)">
+<rect x="20.2168" y="260.053" width="183.907" height="239.878" fill="url(#pattern3)"/>
+</g>
+<g filter="url(#filter4_d)">
+<rect x="208.801" y="260.053" width="183.907" height="239.331" fill="url(#pattern4)"/>
+</g>
+<g filter="url(#filter5_d)">
+<rect x="397.384" y="260.053" width="183.907" height="239.878" fill="url(#pattern5)"/>
+</g>
 <defs>
+<filter id="filter0_d" x="0.217285" y="0.111816" width="223.908" height="279.332" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.00228311 0.00175439)"/>
 </pattern>
+<filter id="filter1_d" x="188.323" y="0.111328" width="223.488" height="279.332" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1" transform="scale(0.00228833 0.00175439)"/>
 </pattern>
+<filter id="filter2_d" x="376.01" y="0.111328" width="223.908" height="279.332" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2" transform="scale(0.00228311 0.00175439)"/>
 </pattern>
+<filter id="filter3_d" x="0.216797" y="244.053" width="223.907" height="279.878" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3" transform="scale(0.00228833 0.00175439)"/>
 </pattern>
+<filter id="filter4_d" x="188.801" y="244.053" width="223.907" height="279.331" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image4" transform="scale(0.00228311 0.00175439)"/>
 </pattern>
+<filter id="filter5_d" x="377.384" y="244.053" width="223.907" height="279.878" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image5" transform="scale(0.00228833 0.00175439)"/>
 </pattern>
