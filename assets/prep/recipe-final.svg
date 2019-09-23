@@ -5,12 +5,8 @@
 <g filter="url(#filter1_d)">
 <rect x="426.989" y="16.0557" width="115.62" height="205.547" fill="url(#pattern1)"/>
 </g>
-<g filter="url(#filter2_d)">
 <rect x="155.748" y="16.0557" width="115.621" height="205.548" fill="url(#pattern2)"/>
-</g>
-<g filter="url(#filter3_d)">
 <rect x="291.369" y="16.0557" width="115.621" height="205.548" fill="url(#pattern3)"/>
-</g>
 <defs>
 <filter id="filter0_d" x="0.12793" y="0.0556641" width="155.62" height="245.547" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -36,27 +32,9 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1" transform="scale(0.00241546 0.0013587)"/>
 </pattern>
-<filter id="filter2_d" x="135.748" y="0.0556641" width="155.621" height="245.548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="10"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2" transform="scale(0.00241546 0.0013587)"/>
 </pattern>
-<filter id="filter3_d" x="271.369" y="0.0556641" width="155.621" height="245.548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="10"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3" transform="scale(0.00241546 0.0013587)"/>
 </pattern>
