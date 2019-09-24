@@ -324,14 +324,17 @@ p {
   .matter-background {
 		grid-column: 2;
 		grid-row: 1;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 300px;
   }
 }
 
 @media (min-width: 991px) {
   .matter-background {
-    padding-left: 120px;
-    padding-right: 120px;
+    margin: auto;
+    width: 500px;
   }
 }
 
@@ -478,14 +481,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 400px;
 }
 
 .connect {
   border-top: 1px solid #3F779D;
   display: block;
   align-items: center;
-  margin-top: 10px;
   padding-top: 40px;
   z-index: 1;
 }
