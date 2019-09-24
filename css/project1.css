@@ -158,14 +158,14 @@ object-fit: cover;
 @media (min-width: 768px) {
   .nav-pages {
     padding-right: 60px;
-    width: 300px;
+    width: 400px;
   }
 }
 
 @media (min-width: 991px) {
   .nav-pages {
     padding-right: 120px;
-    width: 350px;
+    width: 400px;
   }
 }
 
@@ -211,7 +211,8 @@ object-fit: cover;
     padding-top: 20%;
     justify-self: center;
     align-self: end;
-    padding-right: 60px;
+    margin-right: 60px;
+    max-width: 500px;
   }
 }
 
@@ -221,7 +222,7 @@ object-fit: cover;
     grid-row: 1;
     justify-self: center;
     align-self: end;
-    padding-right: 120px;
+    margin-right: 120px;
   }
 }
 
@@ -275,6 +276,7 @@ object-fit: cover;
   line-height: 1.5;
   text-decoration: none;
   color: #3F779D;
+  font-weight: 600;
 }
 
 .nav-pages li a:hover {

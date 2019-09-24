@@ -152,7 +152,7 @@ p {
   .nav-pages {
     grid-column: 1 / span 4;
     align-self: start;
-    width: 350px;
+    width: 400px;
     padding-right: 90px;
   }
 }
@@ -178,6 +178,7 @@ p {
   line-height: 1.5;
   text-decoration: none;
   color: #3F779D;
+  font-weight: 600;
 }
 
 .nav-pages li a:hover {
