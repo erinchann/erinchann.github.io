@@ -18,8 +18,8 @@ h1 {
 h2 {
   font-family: 'Sansita', sans-serif;
   font-weight: 900;
-  font-size: 48px;
-  color: #008583;
+  font-size: 39px;
+  color: #3F779D;
   letter-spacing: 2px;
 }
 
@@ -245,13 +245,40 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    display: grid;
   }
+}
+
+.work-intro {
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  z-index: 1;
+  margin: 30px 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .work-intro {
+    margin: 50px 60px 0;
+    text-align: right;
+  }
+}
+
+@media (min-width: 991px) {
+  .work-intro {
+    margin: 70px 120px 0;
+    padding: 0;
+  }
+}
+
+.work-subtitle {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3F779D;
 }
 
 .matter {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 3;
   background-color: #FCFAF8;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -342,7 +369,7 @@ p {
 
 .prep {
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 2;
   margin: auto;
   z-index: 1;
 }
