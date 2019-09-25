@@ -450,8 +450,8 @@ p {
 }
 
 .matter-copy h4 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  color: white;
+  background-color: #3F779D;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -462,8 +462,9 @@ p {
 }
 
 .matter-copy h4:hover {
-  color: white;
-  background-color: #3F779D;
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  background-color: white;
 }
 
 .project2-copy a {
@@ -471,8 +472,8 @@ p {
 }
 
 .project2-copy h4 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  color: white;
+  background-color: #3F779D;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -484,8 +485,9 @@ p {
 }
 
 .project2-copy h4:hover {
-  color: white;
-  background-color: #3F779D;
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  background-color: white;
 }
 
 footer {
@@ -493,6 +495,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 230px;
 }
 
 .connect {
@@ -541,4 +544,10 @@ footer {
 .social i:hover {
   color: #008583;
   border-bottom: 2px solid #008583;
+}
+
+.copy p {
+  font-size: 14px;
+  color: #3F779D;
+  padding-top: 30px;
 }

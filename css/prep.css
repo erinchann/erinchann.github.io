@@ -323,8 +323,9 @@ object-fit: cover;
 }
 
 .proj-summary h7:hover {
-  color: white;
-  background-color: #3F779D;
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  background-color: white;
 }
 
 .pro-link {
@@ -1919,8 +1920,8 @@ background-size: contain;
 }
 
 .final-screens h7 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  color: white;
+  background-color: #3F779D;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -1931,18 +1932,19 @@ background-size: contain;
   font-weight: 600;
 }
 
-.d-button {
-  text-align: center;
+.final-screens h7:hover {
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  background-color: white;
 }
 
-.mockup h7:hover {
-  color: white;
-  background-color: #3F779D;
+.m-button {
+  text-align: center;
 }
 
 .mockup h7 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  color: white;
+  background-color: #3F779D;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -1951,6 +1953,12 @@ background-size: contain;
   border-radius: 3px;
   margin-top: 40px;
   font-weight: 600;
+}
+
+.mockup h7:hover {
+  border: 1px solid #3F779D;
+  color: #3F779D;
+  background-color: white;
 }
 
 .d-button {
@@ -2170,4 +2178,10 @@ footer {
 .social i:hover {
   color: #008583;
   border-bottom: 2px solid #008583;
+}
+
+.copy p {
+  font-size: 14px;
+  color: #3F779D;
+  padding-top: 30px;
 }

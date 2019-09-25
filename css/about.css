@@ -550,3 +550,9 @@ footer {
   color: #008583;
   border-bottom: 2px solid #008583;
 }
+
+.copy p {
+  font-size: 14px;
+  color: #3F779D;
+  padding-top: 30px;
+}
