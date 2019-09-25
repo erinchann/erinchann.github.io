@@ -78,7 +78,6 @@ p {
 .nav-intro {
   grid-template-columns: 5fr 7fr;
   column-gap: 20px;
-  background-color: #FBF8F5;
 }
 
 @media (min-width: 768px) {
@@ -279,7 +278,6 @@ p {
 .matter {
   grid-column: 1;
   grid-row: 3;
-  background-color: #FCFAF8;
   padding-top: 30px;
   padding-bottom: 30px;
   z-index: 1;
@@ -308,7 +306,6 @@ p {
   align-self: center;
   text-align: center;
   padding: 20px;
-  background-color: #FCFAF8;
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
