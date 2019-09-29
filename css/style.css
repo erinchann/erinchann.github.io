@@ -92,7 +92,7 @@ p {
 @media (min-width: 768px) {
   .nav-intro {
     grid-template-columns: 1fr 5fr 5fr 1fr;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
 }
 
