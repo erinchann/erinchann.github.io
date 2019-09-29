@@ -441,7 +441,7 @@ object-fit: cover;
 @media (min-width: 768px){
   .probsol {
     grid-template-columns: 4fr 5fr;
-    grid-gap: 20px;
+    grid-gap: 0px;
     display: grid;
     padding: 50px 60px;
   }
@@ -510,7 +510,7 @@ object-fit: cover;
     grid-template-columns: 4fr 5fr;
     display: grid;
     margin: 50px 60px;
-    column-gap: 40px;
+    column-gap: 0px;
   }
 }
 
@@ -576,7 +576,7 @@ object-fit: cover;
 @media (min-width: 768px){
   .surveys {
     grid-template-columns: 4fr 5fr;
-    grid-gap: 20px;
+    grid-gap: 0px;
     padding: 50px 60px;
   }
 }
@@ -987,6 +987,7 @@ object-fit: cover;
 @media (min-width: 768px) {
   .flows {
     grid-template-columns: 4fr 5fr;
+    grid-gap: 0px;
     margin: 50px 60px;
 }
 }
