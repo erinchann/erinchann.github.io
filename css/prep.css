@@ -1015,6 +1015,7 @@ object-fit: cover;
 .goal-title{
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -1090,7 +1091,7 @@ object-fit: cover;
     grid-row: 8;
     text-align: left;
     padding-bottom: 0px;
-    padding-left: 20px; 
+    padding-left: 20px;
   }
 }
 

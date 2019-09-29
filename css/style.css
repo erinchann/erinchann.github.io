@@ -38,6 +38,15 @@ h4 {
   color: #3F779D;
 }
 
+h5 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 2;
+  text-decoration: none;
+  color: #008583;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -82,14 +91,8 @@ p {
 
 @media (min-width: 768px) {
   .nav-intro {
-    grid-template-columns: 1fr 4fr 5fr 1fr;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
     padding-bottom: 80px;
-  }
-}
-
-@media (min-width: 991px) {
-  .nav-intro {
-    grid-template-columns: 1fr 4fr 5fr 1fr;
   }
 }
 
@@ -197,13 +200,7 @@ p {
   grid-row: 3;
   padding: 30px 30px 50px;
   z-index: 1;
-}
-
-
-@media (min-width: 768px) {
-  .intro-text {
-    padding: 0;
-  }
+  text-align: center;
 }
 
 /* @media (min-width: 768px) {
@@ -220,15 +217,21 @@ p {
 
 @media (min-width: 768px) {
   .intro-text {
-    grid-column: 3;
+    grid-column: 2 / span 2;
     grid-row: 2;
-    align-self: center;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
   }
+}
+
+.intro-text p {
+  padding-top: 20px;
 }
 
 @media (min-width: 768px) {
   .intro-text p {
-    padding-top: 10px;
+    padding-top: 20px;
   }
 }
 
