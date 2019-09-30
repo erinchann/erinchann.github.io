@@ -911,12 +911,14 @@ object-fit: cover;
   }
 }
 
-h8.task-title1 {
-  color: grey;
+p.task-title1 {
+  color: black;
+  font-weight: bold;
 }
 
-h8.task-title2 {
-  color: grey;
+p.task-title2 {
+  color: black;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
