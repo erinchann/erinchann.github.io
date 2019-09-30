@@ -205,7 +205,7 @@ object-fit: cover;
     grid-column: 1;
     grid-row: 1;
     text-align: right;
-    padding-left: 120px;
+    padding-left: 200px;
   }
 }
 
@@ -369,7 +369,7 @@ object-fit: cover;
 
 @media (min-width: 991px) {
   .proj-specs {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -449,7 +449,7 @@ object-fit: cover;
 
 @media (min-width: 991px){
   .probsol {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -516,7 +516,7 @@ object-fit: cover;
 
 @media (min-width: 991px){
   .comp-analysis {
-    margin: 50px 120px;
+    margin: 50px 200px;
   }
 }
 
@@ -583,7 +583,7 @@ object-fit: cover;
 
 @media (min-width: 991px){
   .surveys {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -675,7 +675,7 @@ object-fit: cover;
 
 @media (min-width: 991px) {
   .personas {
-    margin: 50px 120px 50px;
+    margin: 50px 200px 50px;
   }
 }
 
@@ -871,7 +871,7 @@ object-fit: cover;
 
 @media (min-width: 991px) {
   .user-journeys {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1021,7 +1021,7 @@ p.task-title2 {
 
 @media (min-width: 991px) {
   .flows {
-    margin: 50px 120px;
+    margin: 50px 200px;
   }
 }
 
@@ -1212,7 +1212,7 @@ p.task-title2 {
 
 @media (min-width: 991px) {
   .lofi {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1319,7 +1319,7 @@ p.task-title2 {
 
 @media (min-width: 991px) {
   .branding-intro {
-    margin: 50px 120px 0;
+    margin: 50px 200px 0;
   }
 }
 
@@ -1363,7 +1363,7 @@ p.task-title2 {
 
 @media (min-width: 991px){
   .brainstorming {
-    margin: 50px 120px 50px;
+    margin: 50px 200px 50px;
   }
 }
 
@@ -1421,7 +1421,7 @@ background-size: contain;
 
 @media (min-width: 991px){
   .logo-sketches {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1491,7 +1491,7 @@ background-size: contain;
 
 @media (min-width: 991px){
   .color {
-    padding: 50px 120px 50px;
+    padding: 50px 200px 50px;
   }
 }
 
@@ -1560,7 +1560,7 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .type {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1670,7 +1670,7 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .hifi {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1808,7 +1808,7 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .usa-intro {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -1872,8 +1872,8 @@ background-size: contain;
 
 @media (min-width: 991px){
 .usa-finding1 {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 }
 
@@ -1916,8 +1916,8 @@ background-size: contain;
 
 @media (min-width: 991px){
 .usa-finding2 {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 }
 
@@ -1960,8 +1960,8 @@ background-size: contain;
 
 @media (min-width: 991px){
 .usa-finding3 {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 }
 
@@ -2002,7 +2002,7 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .mockup {
-    padding: 50px 120px;
+    padding: 50px 200px;
   }
 }
 
@@ -2046,7 +2046,7 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .final-screens {
-    padding: 0 120px 50px;
+    padding: 0 200px 50px;
   }
 }
 
@@ -2150,8 +2150,8 @@ background-size: contain;
 
 @media (min-width: 991px) {
   .conclusion {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
