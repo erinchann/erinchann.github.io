@@ -181,6 +181,7 @@ p {
   justify-self: center;
   padding-top: 50px;
   z-index: 1;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -190,6 +191,7 @@ p {
     align-self: center;
     max-width: 350px;
     justify-self: right;
+    text-align: right;
     padding: 0;
     padding-left: 60px;
   }
@@ -217,11 +219,11 @@ p {
 
 @media (min-width: 768px) {
   .intro-text {
-    grid-column: 2 / span 2;
+    grid-column: 3;
     grid-row: 2;
-    max-width: 600px;
-    margin: auto;
     padding-top: 50px;
+    padding: 50px 0 0;
+    text-align: left;
   }
 }
 
