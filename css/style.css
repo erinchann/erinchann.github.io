@@ -192,6 +192,8 @@ p {
     max-width: 350px;
     justify-self: right;
     text-align: right;
+    align-items: right;
+    align-self: right;
     padding: 0;
     padding-left: 60px;
   }
