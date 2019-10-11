@@ -252,72 +252,61 @@ p {
 
 .bio {
   grid-template-columns: 1fr;
-  column-gap: 20px;
+  grid-gap: 20px;
   margin: 50px 30px 50px;
 }
 
 @media (min-width: 768px) {
   .bio {
     display: grid;
-    grid-template-columns: 6fr 6fr;
-    column-gap: 20px;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 20px;
     margin: 50px 60px;
   }
 }
 
 @media (min-width: 991px) {
   .bio {
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    column-gap: 20px;
     margin: 50px 120px;
   }
 }
 
-.bio h3{
+.about-title {
   grid-column: 1;
   grid-row: 1;
 }
 
-.bio h4 {
-  grid-column: 1;
-  grid-row: 2;
+
+@media (min-width: 991px) {
+  .about-title {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
 
 .about-one {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
 }
 
 @media (min-width: 768px) {
   .about-one {
     padding-right: 15px;
+    grid-column: 2;
+    grid-row: 1;
   }
 }
 
 .about-two {
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 3;
 }
 
 @media (min-width: 768px) {
   .about-two {
 		grid-column: 2;
-		grid-row: 3;
-    padding-left: 15px;
+		grid-row: 2;
   }
-}
-
-@media (min-width: 991px) {
-  .about-two {
-		grid-column: 2;
-		grid-row: 3;
-    padding: 0;
-  }
-}
-
-.bio p {
-  padding-top: 20px;
 }
 
 /* resume */
