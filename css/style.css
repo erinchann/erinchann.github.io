@@ -208,9 +208,9 @@ p {
     grid-column: 1;
     grid-row: 1;
     align-self: center;
-    max-width: 350px;
+    max-width: 250px;
     padding: 0;
-    padding-left: 60px;
+
   }
 }
 
@@ -324,6 +324,7 @@ p {
 .matter-copy p {
   padding-top: 20px;
   padding-bottom: 20px;
+  color: black;
 }
 
 .matter-background {
@@ -415,11 +416,14 @@ p {
     font-weight: 800;
     border: 3px solid white;
     padding: 15px;
+    max-width: 130px;
+    text-align: center;
 }
 
 .project2-copy p {
   padding-top: 20px;
   padding-bottom: 20px;
+  color: black;
 }
 
 .projects p {
