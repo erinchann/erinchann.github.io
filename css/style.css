@@ -366,6 +366,12 @@ figure.matter-effect:hover p {
 figure.matter-effect:hover figcaption {
 	padding: 3em;
 	border: 2px solid #fff;
+  background-color: #B8CEDB;
+  }
+}
+
+figure.matter-block:hover {
+  background-color: #B8CEDB;
   }
 }
 
@@ -465,6 +471,7 @@ figure.prep-effect:hover p {
 figure.prep-effect:hover figcaption {
 	padding: 3em;
 	border: 2px solid #fff;
+  background-color: #DBC5B8;
   }
 }
 
