@@ -48,7 +48,7 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   font-size: 39px;
   text-decoration: none;
-  color: #3F779D;
+  color: #7BABCA;
   font-weight: 300;
 }
 
@@ -56,7 +56,7 @@ h5 {
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 /* links */
@@ -65,7 +65,7 @@ h7 {
   font-size: 18px;
   line-height: 1.8em;
   letter-spacing: 1.04%;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 p {
@@ -200,7 +200,7 @@ object-fit: cover;
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
-  color: #3F779D;
+  color: #7BABCA;
   font-weight: 600;
 }
 
@@ -307,7 +307,7 @@ input {
 }
 
 input:focus{
-    outline-color: #3F779D;
+    outline-color: #7BABCA;
 }
 
 textarea {
@@ -330,14 +330,13 @@ textarea {
 }
 
 textarea:focus{
-    outline-color: #3F779D;
+    outline-color: #7BABCA;
 }
 
 button {
   display: block;
-  border: 1px solid #3F779D;
-  color: #3F779D;
-  background-color: #FBF8F5;
+  background-color: #7BABCA;
+  color: white;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -349,11 +348,13 @@ button {
 
 button:hover {
     color: white;
-    background-color: #3F779D;
+    border: 1px solid #7BABCA;
+    color: #7BABCA;
+    background-color: #FBF8F5;
   }
 
   button:focus{
-      outline-color: #3F779D;
+      outline-color: #7BABCA;
   }
 
 
@@ -370,7 +371,7 @@ footer {
 .connect {
   display: block;
   align-items: center;
-  border-top: 1px solid #3F779D;
+  border-top: 1px solid #7BABCA;
   padding-top: 50px;
 }
 
@@ -379,7 +380,7 @@ footer {
 }
 
 .connect h7 {
-  color: #3F779D;
+  color: #7BABCA;
   margin: 0 auto 10px;
   width: 190px;
   z-index: 1;
@@ -410,7 +411,7 @@ footer {
   color: inherit;
   display: block;
   position: relative;
-  color: #3F779D;
+  color: #7BABCA;
   transform: scale(2);
 }
 
@@ -421,6 +422,6 @@ footer {
 
 .copy p {
   font-size: 14px;
-  color: #3F779D;
+  color: #7BABCA;
   padding-top: 30px;
 }

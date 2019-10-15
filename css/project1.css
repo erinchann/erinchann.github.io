@@ -47,7 +47,7 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   font-size: 39px;
   text-decoration: none;
-  color: #3F779D;
+  color: #7BABCA;
   font-weight: 300;
 }
 
@@ -55,7 +55,7 @@ h5 {
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 /* links */
@@ -64,7 +64,7 @@ h7 {
   font-size: 18px;
   line-height: 1.8em;
   letter-spacing: 1.04%;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 h8 {
@@ -73,7 +73,7 @@ h8 {
   letter-spacing: 1.04%;
   line-height: 1.8em;
   font-weight: 600;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 p {
@@ -99,7 +99,6 @@ object-fit: cover;
 
 .nav-intro {
   display: grid;
-  background-color: #FBF8F5;
   margin-bottom: 10px;
 }
 
@@ -202,7 +201,6 @@ object-fit: cover;
   justify-self: center;
   align-self: center;
   padding: 10px 30px 0;
-  background-color: #FBF8F5;
 }
 
 @media (min-width: 768px) {
@@ -276,7 +274,7 @@ object-fit: cover;
   font-size: 14px;
   line-height: 1.5;
   text-decoration: none;
-  color: #3F779D;
+  color: #7BABCA;
   font-weight: 600;
 }
 
@@ -295,7 +293,7 @@ object-fit: cover;
 /* button */
 .matter-summary h7 {
   color: white;
-  background-color: #3F779D;
+  background-color: #7BABCA;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -306,8 +304,8 @@ object-fit: cover;
 }
 
 .matter-summary h7:hover {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   background-color: white;
 }
 
@@ -966,8 +964,8 @@ object-fit: cover;
 }
 
 .flow-link h7 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   background-color: white;
   padding: 8px 32px;
   text-align: center;
@@ -979,8 +977,8 @@ object-fit: cover;
 }
 
 .flow-link h7:hover {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   background-color: white;
 }
 
@@ -1549,7 +1547,7 @@ background-size: contain;
 
 .typeface-name {
   font-size: 24;
-  color: #3F779D;
+  color: #7BABCA;
 }
 
 .brand-typeface .type-sample {
@@ -1664,7 +1662,7 @@ background-size: contain;
 .test-name {
   font-size: 14px;
   font-weight: 600;
-  color: #3F779D;
+  color: #7BABCA;
   line-height: 1em;
   padding-bottom: 10px;
 }
@@ -2176,7 +2174,7 @@ background-size: contain;
 
 .desktop h7 {
   color: white;
-  background-color: #3F779D;
+  background-color: #7BABCA;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -2191,14 +2189,14 @@ background-size: contain;
 }
 
 .desktop h7:hover {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   background-color: white;
 }
 
 .mobile h7 {
   color: white;
-  background-color: #3F779D;
+  background-color: #7BABCA;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -2212,8 +2210,8 @@ background-size: contain;
 }
 
 .mobile h7:hover {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   background-color: white;
 }
 
@@ -2297,8 +2295,8 @@ background-size: contain;
 }
 
 .thanks h7 {
-  border: 1px solid #3F779D;
-  color: #3F779D;
+  border: 1px solid #7BABCA;
+  color: #7BABCA;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -2310,7 +2308,7 @@ background-size: contain;
 
 .thanks h7:hover {
   color: white;
-  background-color: #3F779D;
+  background-color: #7BABCA;
 }
 
 
@@ -2337,7 +2335,7 @@ footer {
   display: block;
   align-items: center;
   padding-top: 50px;
-  border-top: 1px solid #3F779D;
+  border-top: 1px solid #7BABCA;
 }
 
 .connect h4 {
@@ -2345,7 +2343,7 @@ footer {
 }
 
 .connect h7 {
-  color: #3F779D;
+  color: #7BABCA;
   margin: 0 auto 10px;
   width: 190px;
   z-index: 1;
@@ -2376,7 +2374,7 @@ footer {
   color: inherit;
   display: block;
   position: relative;
-  color: #3F779D;
+  color: #7BABCA;
   transform: scale(2);
 }
 
@@ -2387,6 +2385,6 @@ footer {
 
 .copy p {
   font-size: 14px;
-  color: #3F779D;
+  color: #7BABCA;
   padding-top: 30px;
 }
