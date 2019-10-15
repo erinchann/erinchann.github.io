@@ -10,7 +10,7 @@
 <rect x="316.743" y="8.22736" width="271.084" height="481.928" fill="url(#pattern1)"/>
 </g>
 </g>
-<rect x="0.933838" y="0.146729" width="610.688" height="498.089" fill="#DBC5B8" fill-opacity="0.85"/>
+<rect x="0.933838" y="0.146729" width="610.688" height="498.089" fill="#DBC5B8" fill-opacity="0.9"/>
 <defs>
 <filter id="filter0_d" x="-3.77661" y="-8.45551" width="311.852" height="523.293" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
