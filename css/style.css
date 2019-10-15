@@ -409,6 +409,8 @@ p {
 .prep-block {
   grid-row: 1;
   grid-column: 1;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .prep-block {
@@ -504,6 +506,15 @@ p {
 		top: 0;
 		right: 0;
 	}
+}
+
+@media (min-width: 768px){
+.prep-block {
+  grid-row: 1;
+  grid-column: 1;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 }
 
 .projects a{
