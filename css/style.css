@@ -361,12 +361,12 @@ figure.matter-effect:hover p, figure.matter-effect:hover h3 {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  color: #565656;
 }
 
 figure.matter-effect:hover figcaption {
 	padding: 3em;
-	border: 2px solid #565656;
+	border: 2px solid white;
+  background-color: #B8CEDB;
   }
 }
 
@@ -461,12 +461,12 @@ figure.prep-effect:hover p, figure.prep-effect:hover h3 {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  color: #565656;
 }
 
 figure.prep-effect:hover figcaption {
 	padding: 3em;
-	border: 2px solid #565656;
+	border: 2px solid white;
+  background-color: #DBC5B8;
   }
 }
 
