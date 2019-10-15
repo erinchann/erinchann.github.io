@@ -525,6 +525,10 @@ p {
   color: white;
 }
 
+.projects p {
+  color: white;
+}
+
 /*
 .project2-background {
   grid-column: 1;
