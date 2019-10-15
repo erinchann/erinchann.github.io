@@ -357,21 +357,16 @@ figure.matter-effect p {
 }
 
 figure.matter-effect:hover figcaption::before,
-figure.matter-effect:hover p {
+figure.matter-effect:hover p, figure.matter-effect:hover h3 {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+  color: #565656;
 }
 
 figure.matter-effect:hover figcaption {
 	padding: 3em;
-	border: 2px solid #fff;
-  background-color: #B8CEDB;
-  }
-}
-
-figure.matter-block:hover {
-  background-color: #B8CEDB;
+	border: 2px solid #565656;
   }
 }
 
@@ -462,18 +457,19 @@ figure.prep-effect p {
 }
 
 figure.prep-effect:hover figcaption::before,
-figure.prep-effect:hover p {
+figure.prep-effect:hover p, figure.prep-effect:hover h3 {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+  color: #565656;
 }
 
 figure.prep-effect:hover figcaption {
 	padding: 3em;
-	border: 2px solid #fff;
-  background-color: #DBC5B8;
+	border: 2px solid #565656;
   }
 }
+
 
 @media screen and (max-width: 50em) {
 	.content {
