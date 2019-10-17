@@ -660,6 +660,11 @@ object-fit: cover;
   }
 }
 
+.prob-list {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 .survey-two {
   grid-column: 1;
   grid-row: 4;
@@ -679,6 +684,11 @@ object-fit: cover;
     grid-row: 3;
     margin-top: 50px;
   }
+}
+
+.sol-list {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .surveys p {
