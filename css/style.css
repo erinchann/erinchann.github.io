@@ -652,11 +652,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 230px;
+  height: 400px;
 }
 
 .connect {
-  border-top: 1px solid #3F779D;
+  border-top: 1px solid #7BABCA;
   display: block;
   align-items: center;
   padding-top: 40px;
