@@ -96,13 +96,13 @@ p {
 
 @media (min-width: 768px) {
   .nav-intro {
-    grid-template-columns: 1fr 4fr 5fr 1fr;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
   }
 }
 
 @media (min-width: 991px) {
   .nav-intro {
-    grid-template-columns: 1fr 4fr 5fr 1fr;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
   }
 }
 
@@ -185,21 +185,45 @@ p {
   border-bottom: 2px solid #008583;
 }
 
+@media (min-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 0px 60px 30px;
+    column-gap: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  .intro {
+    margin: 30px 150px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .intro {
+    margin: 0px 300px 30px;
+  }
+}
+
 .hero-mobile {
-  grid-column: 1 / span 2;
-  grid-row: 2;
-  text-align: center;
   padding-top: 50px;
+  z-index: 1;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
   .hero-mobile {
-    grid-column: 2;
-    grid-row: 2;
-    align-self: center;
-    max-width: 350px;
-    justify-self: right;
-    padding: 0 0 80px;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: left;
+    justify-content: left;
+    text-align: left;
+    max-width: 250px;
+    padding: 0;
+    padding-right: 15px;
+    margin: none;
   }
 }
 
@@ -207,42 +231,41 @@ p {
   grid-column: 1 / span 2;
   grid-row: 3;
   padding: 30px 30px 50px;
+  z-index: 1;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .intro-text {
-    grid-column: 3;
-    grid-row: 2;
-    padding: 0;
-  }
-}
-
-@media (min-width: 991px) {
-  .intro-text {
-    grid-column: 3;
-    grid-row: 2;
-    align-self: center;
-  }
-}
-/*
-@media (min-width: 991px) {
+/* @media (min-width: 768px) {
   .hero-mobile {
     display: none;
   }
-} */
+}
 
-/* @media (max-width: 990px) {
+@media (max-width: 768px) {
   .hero-desk {
     display: none;
   }
+} */
+
+@media (min-width: 768px) {
+  .intro-text {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 50px;
+    padding: 50px 0 0;
+    text-align: left;
+  }
 }
 
-@media (min-width: 991px) {
-  .hero-desk {
-    grid-column: 1;
-    grid-row: 1;
+.intro-text p {
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .intro-text p {
+    padding-top: 20px;
   }
-} */
+}
 
 /* bio */
 .bio {
@@ -266,8 +289,14 @@ p {
 
 @media (min-width: 991px) {
   .bio {
-    margin: 50px 120px;
+    margin: 50px 150px;
   }
+}
+
+@media (min-width: 1025px) {
+  .bio {
+     margin: 50px 300px ;
+   }
 }
 
 .about-title {
@@ -331,8 +360,15 @@ p {
     display: grid;
     grid-template-columns: 6fr 1fr 5fr;
     grid-gap: 20px;
-    margin: 50px 120px;
+    margin: 50px 150px;
   }
+}
+
+
+@media (min-width: 1025px) {
+.resume {
+    margin: 50px 300px;
+}
 }
 
 .experience {
