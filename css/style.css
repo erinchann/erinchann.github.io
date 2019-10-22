@@ -277,7 +277,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px 60px;
-    column-gap: 65px;
+    column-gap: 70px;
   }
 }
 
