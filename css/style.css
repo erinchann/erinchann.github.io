@@ -451,7 +451,7 @@ figure.matter-effect figcaption::before{
 }
 
 figure.matter-effect h3 {
-	padding: 20% 0 20px 0;
+	padding: 10px 0 20px 0;
 }
 
 figure.matter-effect p {
@@ -566,7 +566,7 @@ figure.prep-effect figcaption::before{
 }
 
 figure.prep-effect h3 {
-	padding: 20% 0 20px 0;
+	padding: 10px 0 20px 0;
 }
 
 figure.prep-effect p {
@@ -628,7 +628,7 @@ figure.prep-effect figcaption {
 @media (min-width: 768px) {
    .prep-on-block {
      padding: 20px 0 0;
-     margin: 0px;
+     margin: 4px;
      grid-row: 2;
      grid-column: 2;
    }
