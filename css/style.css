@@ -277,7 +277,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px 60px;
-    column-gap: 60px;
+    column-gap: 65px;
   }
 }
 
@@ -413,7 +413,7 @@ figure.project-effect figcaption {
 		grid-row: 2;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding: 20px 0 0;
   }
 }
 
@@ -619,7 +619,7 @@ figure.prep-effect figcaption {
 
 @media (min-width: 768px) {
    .prep-on-block {
-     padding: 10px 0 0;
+     padding: 20px 0 0;
      margin: 0px;
      grid-row: 2;
      grid-column: 2;
@@ -659,7 +659,7 @@ figure.prep-on-effect figcaption::before {
 }
 
 figure.prep-on-effect h3 {
-	padding: 20% 0 20px 0;
+	padding: 15px 0 20px 0;
 }
 
 figure.prep-on-effect p {
