@@ -302,6 +302,7 @@ p {
   width: 300px;
   padding: 20px 30px;
   margin: auto;
+  justify-self: center;
 }
 
 @media (min-width: 768px) {
@@ -398,7 +399,7 @@ figure.project-effect figcaption {
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
-  background-image: url(..assets/matter-home.svg);
+  justify-self: center;
 }
 
 .matter-block {
@@ -479,6 +480,7 @@ figure.matter-effect:hover figcaption {
 		padding: 0 10px;
 		text-align: center;
 	}
+
 	.matter-block figure {
 		display: inline-block;
 		float: none;
@@ -514,6 +516,7 @@ figure.matter-effect figcaption {
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
+  justify-self: center;
 }
 
 .prep-block {
@@ -629,6 +632,7 @@ figure.prep-effect figcaption {
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
+  justify-self: center;
 }
 
 .prep-on-block {
