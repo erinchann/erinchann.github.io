@@ -398,6 +398,7 @@ figure.project-effect figcaption {
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
+  background-image: url(..assets/matter-home.svg);
 }
 
 .matter-block {
