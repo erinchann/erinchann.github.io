@@ -419,6 +419,7 @@ figure.project-effect figcaption {
     padding: 20px 0 0;
     align-self: start;
     width: 300px;
+    justify-self: center;
   }
 }
 
