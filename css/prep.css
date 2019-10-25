@@ -501,6 +501,7 @@ object-fit: cover;
 .sol-img {
   grid-column: 1 / span 2;
   grid-row: 3;
+  padding-top: 70px;
 }
 }
 
