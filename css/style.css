@@ -62,6 +62,8 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 1.04%;
+  color: #565656;
+  font-weight: 600;
 }
 
 /* background pattern */
@@ -409,7 +411,7 @@ figure.project-effect p {
 }
 
 .prep-block:hover {
-  background-color: #DBC5B8;
+  background-color: #B8DBCC;
 }
 
 .prep-effect {

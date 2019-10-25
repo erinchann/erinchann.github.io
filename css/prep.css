@@ -493,6 +493,17 @@ object-fit: cover;
 }
 
 
+.sol-img {
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+.sol-img {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+}
+
 .research-title {
   text-align: center;
   border-top: 1px solid #7BABCA;
