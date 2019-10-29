@@ -364,7 +364,7 @@ figure.project-effect p {
 }
 
 .matter-block:hover {
-  background-color: #B8CEDB;
+  background: #B8CEDB;
 }
 
 
@@ -411,7 +411,7 @@ figure.project-effect p {
 }
 
 .prep-block:hover {
-  background-color: #B8DBCC;
+  background: #B8DBCC;
 }
 
 .prep-effect {
