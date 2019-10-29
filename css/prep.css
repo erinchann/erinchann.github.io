@@ -1349,62 +1349,16 @@ p.task-title2 {
   padding-top: 30px;
 }
 
-.frames1, .frames2, .frames3 {
-  padding-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-  .frames-title1 {
-    grid-column: 2;
-    grid-row: 2;
-  }
-}
-
-@media (min-width: 768px) {
-  .frames1 {
-    grid-column: 2;
-    grid-row: 3;
-  }
-}
-
-@media (min-width: 768px) {
-  .frames-title2 {
-    grid-column: 2;
-    grid-row: 4;
-  }
-}
-
-@media (min-width: 768px) {
-  .frames2 {
-    grid-column: 2;
-    grid-row: 5;
-  }
-}
-
-@media (min-width: 768px) {
-  .frames-title3{
-    grid-column: 2;
-    grid-row: 6;
-  }
-}
-
-@media (min-width: 768px) {
-  .frames3 {
-    grid-column: 2;
-    grid-row: 7;
-  }
-}
-
-
 @media (min-width: 768px) {
   .wf-insight {
     grid-column: 2;
     grid-row: 8;
+    padding-top: 30px;
   }
 }
 
 .wf-chal1 {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* branding title */
