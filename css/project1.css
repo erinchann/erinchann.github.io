@@ -428,7 +428,7 @@ object-fit: cover;
 
 @media (min-width: 991px){
   .probsol {
-    margin: 20px 0 100px;
+    margin: 20px 0 0px;
     padding: 50px 200px 50px;
   }
 }
@@ -481,13 +481,14 @@ object-fit: cover;
 @media (min-width: 768px){
   .comp-analysis {
     grid-template-columns: 4fr .5fr .5fr .5fr 3.5fr;
-    margin: 40px 60px;
+    grid-gap: 0px;
+    margin: 0px 60px 50px;
   }
 }
 
 @media (min-width: 991px){
   .comp-analysis {
-    margin: 40px 200px;
+    margin: 0px 200px 50px;
   }
 }
 
@@ -2054,7 +2055,7 @@ background-size: contain;
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 991px){
   .usa-two {
     padding: 0 200px 80px;
   }
@@ -2105,20 +2106,47 @@ background-size: contain;
   padding: 0 30px;
 }
 
-.mockup h4 {
+.final-title {
   text-align: center;
   margin: 50px auto 20px;
   max-width: 290px;
 }
 
-.mockup p {
+.final-sum {
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .mockup p {
-    max-width: 500px;
-    margin: auto;
+  .mockup {
+    grid-template-columns: 4fr 5fr;
+    display: grid;
+    margin: 0 60px;
+  }
+}
+
+@media (min-width: 991px) {
+  .mockup {
+    margin: 0 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .final-title {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    margin: 0;
+    max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .final-sum {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: none;
+    margin: 0;
+    text-align: left;
   }
 }
 
