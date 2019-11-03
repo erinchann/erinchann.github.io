@@ -1606,13 +1606,13 @@ background-size: contain;
   .type {
     grid-template-columns: 4fr 2.5fr 2.5fr;
     column-gap: 0;
-    padding: 50px 60px;
+    padding: 00px 60px 50px;
   }
 }
 
 @media (min-width: 991px) {
   .type {
-    padding: 50px 200px;
+    padding: 0px 200px 50px;
   }
 }
 
@@ -1848,6 +1848,12 @@ background-size: contain;
   padding: 30px 0;
 }
 
+@media (min-width: 768px) {
+  .hf-image {
+    padding: 30px 0 0;
+  }
+}
+
 .hifi1, .hifi2, .hifi3, {
   padding-bottom: 30px;
   padding-top: 10px;
@@ -1855,7 +1861,7 @@ background-size: contain;
 
 @media (min-width: 768px) {
 .hf-insight {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   padding-top: 40px;
 }
 }
@@ -1938,7 +1944,7 @@ background-size: contain;
 .usa-finding1 {
   display: grid;
   grid-template-columns: 4fr 5fr;
-  padding: 30px 60px;
+  padding: 0px 60px;
 }
 }
 
@@ -1985,7 +1991,7 @@ background-size: contain;
 .usa-finding2 {
   display: grid;
   grid-template-columns: 4fr 5fr;
-  padding: 30px 60px 30px;
+  padding: 50px 60px;
 }
 }
 
@@ -2021,6 +2027,7 @@ background-size: contain;
   margin: auto;
   padding-top: 30px;
   max-width: 550px;
+  padding-bottom: 0;
 }
 }
 
@@ -2034,7 +2041,7 @@ background-size: contain;
 .usa-finding3 {
   display: grid;
   grid-template-columns: 4fr 5fr;
-  padding: 30px 60px 50px;
+  padding: 0px 60px 50px;
 }
 }
 
